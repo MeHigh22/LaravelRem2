@@ -12,6 +12,7 @@
                         <a class="nav-link {{request()->is('view1')?'active':''}}" href="{{ route('page1') }}">View1</a>
                         <a class="nav-link {{request()->is('view2')?'active':''}}" href="{{ route('page2') }}">View2</a>
                         <a class="nav-link {{request()->is('view3')?'active':''}}" href="{{ route('page3') }}">View3</a>
+                        <a class="nav-link {{request()->is('viewTab')?'active':''}}" href="{{ route('tableau') }}">Tools</a>
                     </div>
                 </div>
             </div>
