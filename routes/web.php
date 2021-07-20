@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ToolsController;
 use App\Http\Controllers\View1Controller;
 use App\Http\Controllers\View2Controller;
 use App\Http\Controllers\View3Controller;
@@ -24,4 +25,4 @@ Route::get('/view2', [View2Controller::class, 'index'])->name('page2');
 
 Route::get('/view3', [View3Controller::class, 'index'])->name('page3');
 
-
+Route::get('/viewTab', [ToolsController::class, 'index'])->name("tableau");

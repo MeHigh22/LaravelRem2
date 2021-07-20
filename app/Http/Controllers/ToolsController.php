@@ -8,7 +8,7 @@ class ToolsController extends Controller
 {
     public function index()
     {
-        $tabs = ['Crayon', 'Bic', 'Latte', 'Machiato'];
-        return view('pages.viewX', compact('tabs'));
+        $tabs = ['Stylo', 'Calculatrice', 'Pokédex', 'Drogue Dure'];
+        return view('viewTab', compact('tabs'));
     }
 }
